@@ -34,3 +34,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+settings.py
+settings.pyc
+userfiles
+app.pid
+site.log
