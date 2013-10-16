@@ -49,9 +49,9 @@ function initialize() {
 			$.post('/log/location', {
 				'lat':obj.latLng.lat(),
 				'lng':obj.latLng.lng()
+			}).done(function(){
+				window.location.reload();
 			});
-
-			window.location.reload();
 		}
 	});
 }
